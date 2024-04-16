@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mainDiv {
+  width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #9aa7e0;
+  align-items: center;
+}
+
+.passManagerLogoImgCl {
+  width: 90px;
+  height: 60px;
+}
+
+.child2Div {
+  width: 90vw;
+  height: 50vh;
+  background-color: #54619c;
+
+  display: flex;
+  justify-content: space-around;
+
+  margin-bottom: 20px;
+}
+
+.child3Div {
+  width: 90vw;
+  min-height: 50vh;
+  background-color: #54619c;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logoDivInput {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.logoWidth {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+
+.passManagerCL {
+  width: 100%;
+  height: 100%;
+}
+
+.mainLogoDiv {
+  width: 90vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.formDivParent {
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.formsDiv {
+  padding: 20px 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #424b7d;
+}
+
+.paraAddPass {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 6px 10px;
+  background-color: #0969f0;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.btnDIv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.h1CheckBox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.searchInputDIv {
+  display: flex;
+}
+.checkLabelCl {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.searchCL {
+  height: 30px;
+}
+
+.child3Child {
+  margin-bottom: 20px;
+}
+
+.noPass {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+.noPassImg {
+  width: 30%;
+  height: 60%;
+}
+
+.mainContainerForCard {
+  display: flex;
+  min-width: 13rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+  border: 1px solid white;
+}
+
+.liCl {
+  list-style: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.newClForlogoWidth {
+  width: 30px;
+  height: 30px;
+}
+.delBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.firstLetter {
+  width: 50px;
+  height: 50px;
+  border-radius: 360px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.ulCl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.Coral {
+  background-color: Coral;
+}
+.Crimson {
+  background-color: crimson;
+}
+.Violet {
+  background-color: Violet;
+}
+
+.detailsContainer {
+  margin-right: 10px;
+}
+
+.starImg {
+  width: 40px;
+  height: 20px;
+}
+
+.AddNewPassPara {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+
+.h1LenPara {
+  display: flex;
+  align-items: center;
+  width: 13rem;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+}
+
+.h1Password {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+@media (max-width: 560px) {
+  .h1LenPara {
+    width: 10rem;
+  }
+
+  .h1Password {
+    font-size: 20px;
+  }
+
+  .searchCL {
+    width: 120px;
+    height: 20px;
+  }
+
+  .logoWidth {
+    width: 20px;
+    height: 20px;
+  }
+
+  .noPassImg {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media (max-width: 986px) {
+  .AddNewPassPara {
+    width: 300px;
+  }
+
+  .child2Div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .passManagerCL {
+    width: 300px;
+    height: 200px;
+  }
+
+  .formDivParent {
+    padding: 0px 0px;
+  }
+
+  .formsDiv {
+    padding: 10px 20px;
+  }
+}
